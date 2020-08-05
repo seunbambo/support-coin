@@ -27,7 +27,7 @@ contract Campaign {
     address public manager;
     uint256 public minimumContribution;
     mapping(address => bool) public approvers;
-    uint256 approversCount;
+    uint256 public approversCount;
 
     modifier restricted() {
         require(msg.sender == manager);
