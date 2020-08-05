@@ -9,17 +9,20 @@
   },
   "license": "MIT",
   "dependencies": {
-    "fs-extra": "8",
+    "fs-extra": "^9.0.1",
     "ganache-cli": "^6.9.1",
-    "mocha": "^8.1.0",
-    "next": "4.1.4",
-    "next-routes": "^1.2.0",
+    "mocha": "^8.1.1",
+    "next": "^9.5.1",
+    "next-routes": "^1.4.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "semantic-ui-css": "^2.2.12",
-    "semantic-ui-react": "^0.77.1",
-    "solc": "0.4",
-    "truffle-hdwallet-provider": "0.0.3",
-    "web3": "1.0.0-beta.26"
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^1.1.1",
+    "solc": "^0.7.0",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.2.11"
+  },
+  "devDependencies": {
+    "yarn-upgrade-all": "^0.5.4"
   }
 }
